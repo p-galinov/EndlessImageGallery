@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import "../styles/Image.css";
 import ModalImage from "react-modal-image";
 

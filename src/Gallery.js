@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 import {fetchImages} from './service';
-import Heading from './components/Heading';
+import Navbar from './components/Navbar';
 import Loader from './components/Loader';
 import Image from "./components/Image";
 import InfiniteScroll from "react-infinite-scroll-component";
@@ -20,12 +20,14 @@ function Gallery() {
   };
 
   return (
-    <div style={{background: "#fff"}}>
+    <div style={{background: "#fff"}}> 
+    <Navbar />
       {isBusy ? (
         <div></div>
       ) : (
       <div className="container">
-        <div className="">
+       
+        <div>
                   {images &&
                   <InfiniteScroll
                       dataLength={images.length}

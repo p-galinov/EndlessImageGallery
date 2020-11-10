@@ -7,7 +7,7 @@ body{
 .container {
   width: 100%;
   max-width: 120rem;
-  margin: auto;
+  margin: 10px auto;
   padding: 0 0.5rem;
 }
 
@@ -26,8 +26,3 @@ body{
       column-count:1;
     }
 }
-
-/* grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  grid-gap: 0.5rem;
-}*/
