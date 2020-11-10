@@ -25,6 +25,7 @@ function Gallery() {
       {isBusy ? (
         <div></div>
       ) : (
+        
       <div className="container">
        
         <div>
