@@ -23,7 +23,7 @@ function Gallery() {
     <div style={{background: "#fff"}}> 
     <Navbar />
       {isBusy ? (
-        <div style={{background: "#fff", height: "100%", width: "100%"}}></div>
+        <div></div>
       ) : (
         
       <div className="container">
